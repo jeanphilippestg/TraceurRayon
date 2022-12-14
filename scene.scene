@@ -1,0 +1,20 @@
+// Made by Jean-Philippe St-Germain, 2019-10-14
+// the color of the background (rgb) 
+background 140 140 140
+// position of light
+light 0 0 20
+// the origin of the camera followed by the resolution of the image
+camera 0 0 0 80 1920 1080
+// the position of the sphere, followed by its radius and its color.
+sphere 0 0 5 1 10 240 90
+sphere -8 0 5 1 80 80 240
+sphere 5 4 7 1 250 10 10
+sphere 9 -5 7 1 240 100 240
+sphere -8 5 12 1.2 250 240 250
+sphere -6 4 12 0.5 59 89 89
+plane 0 -50 0 240 80 80 0 1 0
+p lane 0 50 0 240 80 80 0 -1 0
+p lane -50 0 0 80 50 240 1 0 0
+p lane 50 0 0 80 50 240 -1 0 0
+p lane 0 0 60 80 50 50 0 0 -1
+square 0 0 -1 1 0 0 0 1 0 0 0 50 240 50 240
